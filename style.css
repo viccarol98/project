@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bytesized&family=Caveat:wght@400..700&family=Lobster&family=Pacifico&family=Patrick+Hand&family=Quicksand:wght@300..700&family=Sarala:wght@400;700&family=Tektur:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(70deg, blue, pink);
+}
+.inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.motivation {
+    font-family: "Tektur", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo {
+    border-top: 0.53px solid black;
+    margin-bottom: 48px;
+}
+.pmain {
+    font-family: "Tektur", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo_total {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+}
+.p1 {
+        font-family: "Bungee", sans-serif;
+        font-style: normal;
+        font-size: 64px;
+        justify-content: center;
+     
+}
+.p2 {
+        font-family: "Caveat", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 32px;
+      }
+      
+
+.botao {
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    box-shadow: 4px 5px rgba( 0, 0, 0, 0.25);
+    border : none;
+    border-radius : 20px;
+    font-family : "Tektur", sans-serif;
+    font-size : 24px;
+    color: #2F2325;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.love {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.iLoveU {
+    margin: 0 auto;
+    display: block;
+    height: 400px;
+    padding: 32px;
+    width: 400px;
+    transition: transform 0.2s ease-in-out;   
+}
+
+.iLoveU:hover {
+    animation: wiggle 0.3s ease-in-out infinite;
+
+}
+
+@keyframes wiggle {
+
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.pe {
+    padding: 32px;
+    border-top: 0.4px solid black;
+    
+}
+.codeCat {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
